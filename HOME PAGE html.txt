@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Age Calculator</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="calculator">
+        <h1>Age Calculator</h1>
+        <div class="input-box">
+          <input type="date" id="date" />
+          <div class="calculate-btn show-modal">Calculate</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="modal hidden">
+      <button class="close-modal">&times;</button>
+      <p class="age-info">
+        Your age is <span class="years"></span> years
+        <span class="months"></span> and <span class="days"></span> days
+      </p>
+    </div>
+    <div class="overlay hidden"></div>
+    <script src="script.js"></script>
+  </body>
+</html>
